@@ -1,0 +1,110 @@
+@import '@/assets/styles/constants.scss';
+
+html {
+   height: 100%;
+   box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+body {
+   height: 100%;
+   font-family: 'Manrope Medium';
+   color: $blackColor;
+   &._lock {
+      overflow: hidden;
+   }
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+li {
+   list-style-type: none;
+}
+
+button {
+   border: none;
+   background-color: inherit;
+}
+
+.wrapper {
+   width: 100%;
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+._container {
+   margin: 0 auto;
+   max-width: $maxWidthContainer + px;
+   padding: 0 45px;
+   @media (max-width: $md3 + px) {
+      padding: 0 39px;
+   }
+   @media (max-width: $md4 + px) {
+      padding: 0 15px;
+   }
+}
+
+.ibg {
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   img {
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      visibility: hidden;
+   }
+}
+
+.btn {
+   font-family: 'Manrope Medium';
+   font-size: 17px;
+   line-height: 23/17 * 100%;
+   color: white;
+   background-color: $blackColor;
+   transition: 0.4s;
+   &:hover {
+      background-color: $grayColor;
+   }
+}
+
+.swiper-pagination-bullets {
+   display: flex;
+}
+.swiper-pagination-bullet {
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   transition: 0.3s;
+   &:hover {
+      scale: 1.1;
+   }
+   &:not(:last-child) {
+      margin-right: 10px;
+   }
+   &:after {
+      content: '';
+      width: 14px;
+      height: 14px;
+      background-color: transparent;
+      border: 2px solid white;
+      transition: 0.3s;
+   }
+}
+.swiper-pagination-bullet-active {
+   &:after {
+      background-color: #00baff;
+   }
+}

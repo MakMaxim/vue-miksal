@@ -1,0 +1,67 @@
+@font-face {
+   font-family: 'Manrope Regular';
+   src: url('@/assets/fonts/Manrope-Regular.woff2') format('woff2'),
+      url('@/assets/fonts/Manrope-Regular.woff') format('woff'),
+      url('@/assets/fonts/Manrope-Regular.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Manrope Bold';
+   src: url('@/assets/fonts/Manrope-Bold.woff2') format('woff2'),
+      url('@/assets/fonts/Manrope-Bold.woff') format('woff'),
+      url('@/assets/fonts/Manrope-Bold.ttf') format('truetype');
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Manrope Medium';
+   src: url('@/assets/fonts/Manrope-Medium.woff2') format('woff2'),
+      url('@/assets/fonts/Manrope-Medium.woff') format('woff'),
+      url('@/assets/fonts/Manrope-Medium.ttf') format('truetype');
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Manrope Light';
+   src: local('Manrope Light'), local('Manrope--Light'),
+      url('@/assets/fonts/Manrope-Light.woff2') format('woff2'),
+      url('@/assets/fonts/Manrope-Light.woff') format('woff'),
+      url('@/assets/fonts/Manrope-Light.ttf') format('truetype');
+   font-weight: 300;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Open Sans Regular';
+   src: url('@/assets/fonts/OpenSans-Regular.eot');
+   src: url('@/assets/fonts/OpenSans-Regular.eot?#iefix')
+         format('embedded-opentype'),
+      url('@/assets/fonts/OpenSans-Regular.woff') format('woff'),
+      url('@/assets/fonts/OpenSans-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Open Sans Bold';
+   src: url('@/assets/fonts/OpenSans-Bold.eot');
+   src: url('@/assets/fonts/OpenSans-Bold.eot?#iefix')
+         format('embedded-opentype'),
+      url('@/assets/fonts/OpenSans-Bold.woff') format('woff'),
+      url('@/assets/fonts/OpenSans-Bold.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Inter';
+   src: url('@/assets/fonts/Inter-Regular.woff2') format('woff2'),
+      url('@/assets/fonts/Inter-Regular.woff') format('woff'),
+      url('@/assets/fonts/Inter-Regular.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
